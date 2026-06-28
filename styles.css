@@ -124,11 +124,11 @@ h4 {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 0.6rem 0;
   flex-wrap: nowrap;
-  gap: 0.5rem;
+  gap: 0.75rem;
   overflow: hidden;
 }
 
@@ -167,18 +167,23 @@ h4 {
 }
 
 @media (max-width: 640px) {
+  .header-content {
+    padding: 0.4rem 0;
+    gap: 0.3rem;
+  }
+
   .header-tag {
-    font-size: 0.5rem;
-    padding: 0.3rem 0.4rem;
+    font-size: 0.48rem;
+    padding: 0.28rem 0.4rem;
     letter-spacing: 0.03em;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 120px;
+    display: flex;
   }
+
   .logo span {
     font-size: 0.85rem;
   }
+
   .logo-img {
     width: 28px;
     height: 28px;
@@ -194,7 +199,7 @@ h4 {
 
 @media (max-width: 640px) {
   .hero {
-    padding-top: calc(0.5rem + 48px);
+    padding-top: calc(1rem + 56px);
     padding-bottom: 1rem;
   }
 }
@@ -1588,8 +1593,13 @@ h4 {
 }
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .logo-img {
