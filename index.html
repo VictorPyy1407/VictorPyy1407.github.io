@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Experimenta el sonido de alta fidelidad y la máxima seguridad vial con los audífonos deportivos de conducción ósea Aeropulse Pro. Envío gratis y pago contra entrega.">
+  <meta name="theme-color" content="#a3e635">
+  <title>Aeropulse Pro - Sonido Inmersivo y Libertad Total</title>
+
+  <!-- SEO Meta Tags -->
+  <meta property="og:title" content="Aeropulse Pro - Sonido Inmersivo y Libertad Total">
+  <meta property="og:description"
+    content="Audífonos deportivos de conducción ósea. Descubre la libertad del sonido de alta fidelidad sin aislarte del entorno.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/main.png">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Sticky Header -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="#" class="logo">
+        <img src="./images/VGshop Logo.png" alt="logo" class="logo-img">
+        <!-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"> -->
+        <path d="M22 12A10 10 0 1 1 12 2v10z"></path>
+        </svg>
+        <span>VG SHOP PY<span class="logo-accent"></span></span>
+      </a>
+      <div class="header-tag">ENVÍO CONTRA ENTREGA </div>
+      <div class="header-tag">ENVÍO GRATIS EN ASUNCION Y CENTRAL! </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+
+        <!-- Left Side: Copy and Price -->
+        <div class="hero-text">
+          <div class="hero-tagline">
+            <span class="badge">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+              Bolso de Viaje Multifunción
+            </span>
+          </div>
+
+          <h1 class="hero-title">BOLSO MULTIFUNCIONAL PARA VIAJAR, ENTRENAR Y TRABAJAR</h1>
+
+          <p class="hero-description">
+            Llevá todo lo que necesitás con un diseño moderno, resistente e impermeable.
+            Cuenta con gran capacidad, compartimento para calzado y múltiples bolsillos para mantener todo perfectamente
+            organizado. Ideal para gimnasio, viajes, oficina o uso diario.
+          </p>
+
+          <div class="price-box">
+            <div class="price-container">
+              <span class="price-current">Gs. 199.000</span>
+              <span class="price-old">Gs. 260.000</span>
+            </div>
+
+            <a href="#checkout-section" class="btn" id="hero-cta-btn">
+              Equipar Ahora
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <span class="price-footnote">Pago en puerta • Logística local garantizada</span>
+          </div>
+        </div>
+
+        <!-- Right Side: Interactive Gallery -->
+        <div class="gallery">
+          <div class="gallery-main-wrapper">
+            <div class="gallery-badge">
+              <div class="gallery-dot"></div>
+              <span class="badge-text"></span>
+              <!-- style="font-size: 0.65rem; font-weight: 900; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Conducción Ósea</span>  -->
+            </div>
+            <div class="gallery-counter"><span id="gallery-current-idx">1</span> / 4</div>
+
+            <button class="gallery-nav-btn gallery-nav-prev" id="gallery-prev" aria-label="Anterior">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            <button class="gallery-nav-btn gallery-nav-next" id="gallery-next" aria-label="Siguiente">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+
+            <img src="./images/Imagen principal.jpg" alt="Aeropulse Pro - Vista Principal" class="gallery-main-img"
+              id="gallery-main">
+          </div>
+
+          <div class="gallery-thumbs">
+            <div class="gallery-thumb active" data-index="0">
+              <img src="./images/Bolso-Gris.jpg" alt="Aeropulse Pro - Miniatura 1">
+            </div>
+            <div class="gallery-thumb" data-index="1">
+              <img src="./images/Bolso-Negro.jpg" alt="Aeropulse Pro - Miniatura 2">
+            </div>
+            <div class="gallery-thumb" data-index="2">
+              <img src="./images/Bolso-Rosa.jpg" alt="Aeropulse Pro - Miniatura 3">
+            </div>
+            <div class="gallery-thumb" data-index="3">
+              <img src="./images/Bolso-Gris.jpg" alt="Aeropulse Pro - Miniatura 4">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- 
+   Specs Grid Section -->
+    <!-- <section class="specs">
+      <div class="container">
+        <div class="specs-grid">
+          <div class="spec-card">
+            <span class="spec-value">IP67</span>
+            <span class="spec-label">Resistencia al Agua</span>
+          </div>
+          <div class="spec-card">
+            <span class="spec-value">29g</span>
+            <span class="spec-label">Peso Ultraligero</span>
+          </div>
+          <div class="spec-card">
+            <span class="spec-value">BT 5.2</span>
+            <span class="spec-label">Latencia Cero</span>
+          </div>
+          <div class="spec-card">
+            <span class="spec-value">8 Hrs</span>
+            <span class="spec-label">Batería de Uso</span>
+          </div>
+        </div>
+      </div>
+    </section>  -->
+
+    <!-- Biomechanics Section (FAQ style accordion) -->
+    <section class="accordion-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Lo que lo hace diferente. <span>.</span></h2>
+        </div>
+
+        <div class="accordion-group">
+          <div class="accordion-item active">
+            <button class="accordion-trigger" id="acc-trigger-1">
+              <span><span class="accordion-trigger-num">01 //</span> Compartimiento Exclusivo para Zapatos
+              </span>
+              <span class="accordion-icon">-</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Diseñado con un compartimiento inferior independiente para que tus zapatos nunca toquen tu ropa. Ideal
+                para
+                ir al gym, un viaje de fin de semana o un evento especial. Separá lo limpio de lo sucio sin esfuerzo.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" id="acc-trigger-2">
+              <span><span class="accordion-trigger-num">02 //</span> Material 100% Impermeable
+              </span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Fabricado en nylon de alta densidad con tratamiento repelente al agua. Una lluvia inesperada,
+                salpicaduras en el aeropuerto, nada penetra. Tu ropa y tus cosas llegan secas a destino.
+
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" id="acc-trigger-3">
+              <span><span class="accordion-trigger-num">03 //</span> Organización Inteligente
+              </span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Bolsillo frontal magnético para documentos, bolsillo lateral de acceso rápido para el celular, y
+                compartimento principal de 45 litros con cremallera doble. Todo en el lugar correcto, siempre.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rotating Marquee -->
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <div class="marquee-item"><span>✦ COMPARTIMIENTO PARA ZAPATOS</span><span>
+          </span><span class="marquee-separator"></span><span>CIENCIA DEPORTIVA</span><span
+            class="marquee-separator"></span></div>
+        <div class="marquee-item"><span>✦ GRAN CAPACIDAD</span><span class="marquee-separator"></span><span>
+          </span><span class="marquee-separator"></span><span>✦ IMPERMEABLE</span><span
+            class="marquee-separator"></span></div>
+        <div class="marquee-item"><span>✦ ENVÍO A TODO PARAGUAY/span><span class="marquee-separator">
+            </span><span class="marquee-separator"></span><span></span><span class="marquee-separator"></span></div>
+        <div class="marquee-item"><span>✦ PAGO CONTRA ENTREGA</span><span class="marquee-separator"></span><span>
+          </span><span class="marquee-separator"></span><span></span><span class="marquee-separator"></span></div>
+      </div>
+    </div>
+
+    <!-- Athlete Evolution Section (Card Grid) -->
+    <section class="use-cases">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">EVOLUCIÓN <span>ATLETA.</span></h2>
+        </div>
+
+        <div class="cases-grid">
+          <!-- Card 1 -->
+          <div class="case-card">
+            <div class="case-img-container">
+              <img src="./images/Viajes de Fin de Semana3.png" alt="Viajes de Fin de Semana" class="case-img">
+            </div>
+            <h3 class="case-title">Viajes de Fin de Semana</h3>
+            <p class="case-description">
+              Entra como equipaje de mano en la mayoría de los vuelos. Espacioso y organizado para 2 o 3 días fuera.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="case-card">
+            <div class="case-img-container">
+              <img src="./images/Gym & Deportea.png" alt="Gym & Deporte" class="case-img">
+            </div>
+            <h3 class="case-title">Gym & Deporte
+            </h3>
+            <p class="case-description">
+              El compartimiento para zapatos lo convierte en el bolso de gym perfecto: ropa limpia separada, zapatillas
+              abajo.
+
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="case-card">
+            <div class="case-img-container">
+              <img src="images/trabajo y Diario.png" alt="Trabajo y Diario" class="case-img">
+            </div>
+            <h3 class="case-title">Trabajo y Diario
+            </h3>
+            <p class="case-description">
+              Cabe la notebook, los documentos, el lunch y todo lo que necesitás para el día. Sin comprometer el estilo.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plug and Play / Steps Section -->
+    <!-- <section class="steps">
+      <div class="container steps-grid">
+        <div class="steps-list">
+          <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">El duelo de bolsos.
+            <span></span>
+          </h2> -->
+    <!-- 
+          <div class="step-item">
+            <span class="step-num">01</span>
+            <div>
+              <h3 class="step-title">Emparejamiento Rápido</h3>
+              <p class="step-desc">Mantén presionado el botón "+" durante 3 segundos, vincúlalo desde la configuración
+                Bluetooth de tu móvil y listo.</p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <span class="step-num">02</span>
+            <div>
+              <h3 class="step-title">Ajuste Ergonómico</h3>
+              <p class="step-desc">Cuelga los arcos detrás de tus orejas para que los transductores reposen sobre tus
+                pómulos, dejando el oído libre.</p>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <span class="step-num">03</span>
+            <div>
+              <h3 class="step-title">Control Integrado</h3>
+              <p class="step-desc">Botones físicos resistentes al agua ubicados de forma táctica para cambiar de canción
+                o responder llamadas en movimiento.</p>
+            </div>
+          </div>
+        </div> -->
+
+    <!-- 
+    <div class="steps-banner">
+      <div class="steps-banner-inner">
+        <img src="./images/IMG_31.png" alt="steps-banner" class="steps-banner-img">
+      </div>
+    </div> -->
+    <!-- <div class="steps-list">
+      <h2 class="section-title" style="text-align:left; margin-bottom:2rem;">
+        ¿Por qué elegir <span>nuestro bolsón?</span>
+      </h2> -->
+
+    <div class="comparison-image">
+      <img src="./images/imgi_9_SLIDER20260612_6a2c83e8584c1.jpg" alt="Comparación bolsón impermeable">
+    </div>
+    </div>
+    <!-- Comparison Table Section -->
+    <!-- <section class="comparison">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"> <span></span></h2>
+        </div>
+
+        <div class="table-wrapper">
+          <table class="comp-table">
+            <thead>
+              <tr>
+                <th>Característica</th>
+                <th class="active-col">AEROPULSE PRO</th>
+                <th>In-Ear Clásicos (TWS)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="label-col">Seguridad en Ruta</td>
+                <td class="active-col">Alta (Oído Destapado)</td>
+                <td class="inactive-col">Nula (Aislamiento Acústico)</td>
+              </tr>
+              <tr>
+                <td class="label-col">Higiene Auditiva</td>
+                <td class="active-col">Excelente (Sin intrusión)</td>
+                <td class="inactive-col">Propicia infecciones por humedad</td>
+              </tr>
+              <tr>
+                <td class="label-col">Estabilidad Física</td>
+                <td class="active-col">Inamovible (Arco de Titanio)</td>
+                <td class="inactive-col">Fácil caída con sudor y rebote</td>
+              </tr>
+              <tr>
+                <td class="label-col">Aislamiento Pasivo</td>
+                <td class="active-col">No tiene (Seguridad total)</td>
+                <td class="inactive-col">Completo (Peligroso al aire libre)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section> -->
+    <section class="payment-security">
+      <div class="payment-card">
+
+        <h2>
+          🔒 Compra Sin Riesgo.
+        </h2>
+
+        <p class="payment-text">
+          No necesitás pagar por adelantado. Realizá tu pedido en minutos y nuestro equipo se encargará del resto.
+        </p>
+
+        <div class="payment-step">
+          <span>1</span>
+          <p><strong>Completá el formulario</strong> con tu nombre, teléfono y dirección.</p>
+        </div>
+
+        <div class="payment-step">
+          <span>2</span>
+          <p><strong>Confirmamos tu pedido</strong> por WhatsApp o llamada antes del envío.</p>
+        </div>
+
+        <div class="payment-step">
+          <span>3</span>
+          <p><strong>Recibí el bolsón y pagá al recibir</strong> en efectivo, de forma rápida y segura.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Trust Banner -->
+    <!-- <section class="trust-banner">
+      <div class="container">
+        <div class="trust-card">
+          <div class="trust-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 class="trust-title">Riesgo Financiero Cero.</h3>
+            <p class="trust-text">
+              No necesitas ingresar tarjetas ni transferencias previas. Reserva tu producto, nuestro equipo
+              logístico lo
+              llevará a tu domicilio y realizas el pago en efectivo o transferencia bancaria directo al
+              repartidor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">PREGUNTAS FRECUENTES <span>(FAQ)</span></h2>
+        </div>
+
+        <div class="accordion-group">
+          <div class="accordion-item">
+            <button class="accordion-trigger" id="faq-trigger-1">
+              <span>¿El compartimiento para zapatos es separado del resto?
+              </span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Sí, es un compartimento completamente independiente con cierre de cremallera en la parte inferior del
+                bolso. Tus zapatos no tienen contacto con la ropa ni los accesorios del compartimento principal.
+
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" id="faq-trigger-2">
+              <span>¿Cuánto demora el envío a todo Paraguay?
+              </span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                En Asunción y Gran Asunción: 24 a 48 horas. En el interior del país: 3 a 5 días hábiles dependiendo del
+                departamento. Te informamos el seguimiento por WhatsApp.
+
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" id="faq-trigger-3">
+              <span>¿Entra como equipaje de mano en el avión?
+              </span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Generalmente sí, dependiendo de la aerolínea. Las dimensiones son compatibles con la mayoría de las
+                políticas de equipaje de mano. Recomendamos verificar con tu aerolínea antes del vuelo.
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Lo que dicen nuestras clientas.
+            <span></span>
+          </h2>
+        </div>
+
+        <div class="test-grid">
+          <!-- Testimonial 1 -->
+          <div class="test-card">
+            <p class="test-text">
+              "Lo pedí para un viaje a Buenos Aires y entró todo: ropa para 3 días, zapatos de taco y neceser. No podía
+              creer cuánto cabe. Y llegó al día siguiente de pedir."
+
+
+            </p>
+            <div class="test-footer">
+              <span class="test-name">Sofía M.
+              </span>
+              <span class="test-role">Asunción, Paraguay
+              </span>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="test-card">
+            <p class="test-text">
+              "Al principio se siente raro como el sonido viaja a través del hueso, pero te acostumbras rápido. El
+              hecho
+              de pagar cuando me lo entregan es una gran seguridad."
+            </p>
+            <div class="test-footer">
+              <span class="test-name">Valentina R.
+              </span>
+              <span class="test-role">San Lorenzo, Paraguay
+              </span>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="test-card">
+            <p class="test-text">
+              "Pedí el negro para mi marido y uno rosa para mí. Ambos llegaron perfectos. El material es muy resistente,
+              lo lavé a mano y quedó como nuevo."
+
+
+            </p>
+            <div class="test-footer">
+              <span class="test-name">Laura P.
+              </span>
+              <span class="test-role">Luque, Paraguay
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Checkout Form Section -->
+    <section class="checkout" id="checkout-section">
+      <div class="container checkout-grid">
+
+        <!-- Left details -->
+        <div class="checkout-text">
+          <span class="badge">Proceso Logístico Local</span>
+          <h2 class="checkout-title">Pedí ahora.
+            <br>
+          </h2>
+          <p class="checkout-desc">
+            Completá tus datos y recibí tu producto. Nuestro equipo lo lleva hasta tu puerta y pagás el total al tenerlo
+            en tus manos. Satisfacción garantizada.
+
+
+          </p>
+          <div class="checkout-total">Gs. 199.000</div>
+        </div>
+
+        <!-- Form Card -->
+        <div class="form-card">
+          <div class="form-header">
+            <div class="form-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              Formulario Seguro
+            </div>
+            <h3 class="form-title">COMPLETAR PEDIDO</h3>
+            <p class="form-subtitle">Datos encriptados · Paga contra entrega</p>
+          </div>
+
+          <form id="purchase-form" class="checkout-form">
+            <div class="form-group">
+              <label for="name" class="form-label">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                Nombre y Apellido
+              </label>
+              <input type="text" id="name" class="form-input" placeholder="Ej. Juan Pérez" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone" class="form-label">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z">
+                  </path>
+                </svg>
+                Teléfono
+              </label>
+              <div class="phone-wrapper">
+                <span class="phone-code">+595</span>
+                <input type="tel" id="phone" class="form-input" placeholder="0981 123 456" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="color" class="form-label">Color</label>
+
+              <select id="color" class="form-input" required>
+                <option value="">Seleccioná un color</option>
+                <option value="Gris">Gris — Moderno y Elegante</option>
+                <option value="Lila">Lila — Femenino y Delicado</option>
+                <option value="Negro">Negro — Clásico y Versátil</option>
+                <option value="Rosa">Rosa — Suave y Moderno</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Ubicación GPS (Opcional)
+              </label>
+              <button type="button" id="gps-button" class="gps-btn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M12 2v2m0 16v2M2 12h2m16 0h2"></path>
+                </svg>
+                Auto-completar con GPS
+              </button>
+            </div>
+
+            <div class="grid-2">
+              <div class="form-group">
+                <label for="dept" class="form-label">Departamento</label>
+                <input type="text" id="dept" class="form-input" placeholder="Ej. Central" required>
+              </div>
+              <div class="form-group">
+                <label for="city" class="form-label">Ciudad</label>
+                <input type="text" id="city" class="form-input" placeholder="Ej. Luque" required>
+              </div>
+            </div>
+
+            <div class="checkout-summary-box">
+              <span class="summary-label">Total a Pagar</span>
+              <div class="summary-price">
+                <span class="price-strike">260.000</span>
+                <span class="price-total">Gs. 199.000</span>
+              </div>
+            </div>
+
+            <button type="submit" class="btn form-btn" id="submit-btn">
+              Confirmar Mi Pedido
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Success Modal Overlay -->
+  <div class="modal" id="success-modal">
+    <div class="modal-content">
+      <div class="modal-success-icon">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+      </div>
+      <h2 class="modal-title">¡PEDIDO RECIBIDO!</h2>
+      <p class="modal-text">
+        Muchas gracias por tu compra, <strong id="modal-user-name"></strong>. Tu pedido ya fue registrado y será
+        entregado en un plazo de 24 a 72 horas.
+        <strong>Bolso Impermeable </strong> 🚚 El delivery se pondrá en contacto contigo antes de la entrega.<br><br>
+        💳 Recordá que el pago se realiza al recibir el producto. ¡Gracias por confiar en nosotros! 😊
+        Te hablaremos al numero:
+        <strong id="modal-user-phone"></strong>
+      </p>
+      <button class="btn modal-btn" id="close-modal-btn">Entendido</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
