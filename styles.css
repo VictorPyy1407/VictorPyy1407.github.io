@@ -1607,3 +1607,49 @@ h4 {
   /* Cambia este valor */
   height: auto;
 }
+
+.checkout-summary {
+  background: #17182b;
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 18px;
+  padding: 18px;
+  margin: 20px 0;
+}
+
+.summary-row,
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-row {
+  color: #cfcfe6;
+  font-size: .95rem;
+  margin-bottom: 12px;
+}
+
+.free-shipping {
+  color: #31e86f;
+  font-weight: 700;
+}
+
+.summary-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, .08);
+  margin: 15px 0;
+}
+
+.summary-total {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.summary-total strong {
+  font-size: 1.8rem;
+  font-weight: 900;
+  background: linear-gradient(90deg, #d18cff, #8f5bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
