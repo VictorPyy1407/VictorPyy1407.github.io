@@ -243,3 +243,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8WM6CYEB73"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  // Configuración de tu propiedad aquí:
+  gtag('config', 'G-XXXXX'); 
+</script>
