@@ -176,11 +176,9 @@ h4 {
     text-overflow: ellipsis;
     max-width: 120px;
   }
-
   .logo span {
     font-size: 0.85rem;
   }
-
   .logo-img {
     width: 28px;
     height: 28px;
@@ -196,7 +194,8 @@ h4 {
 
 @media (max-width: 640px) {
   .hero {
-    padding-top: calc(2rem + 48px);
+    padding-top: calc(0.5rem + 48px);
+    padding-bottom: 1rem;
   }
 }
 
@@ -1589,13 +1588,8 @@ h4 {
 }
 
 @keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
 }
 
 .logo-img {
