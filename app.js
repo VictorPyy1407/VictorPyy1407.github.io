@@ -206,6 +206,14 @@ document.addEventListener('DOMContentLoaded', () => {
       </svg>
       Enviando pedido...
     `;
+    const colorSelect = document.getElementById("color");
+    const selectedColor = document.getElementById("selected-color");
+
+    colorSelect.addEventListener("change", () => {
+      selectedColor.textContent = colorSelect.value
+        ? colorSelect.value
+        : "— Elegí un color";
+    });
 
     try {
       await guardarPedido({
@@ -243,13 +251,3 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8WM6CYEB73"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  // Configuración de tu propiedad aquí:
-  gtag('config', 'G-XXXXX'); 
-</script>
